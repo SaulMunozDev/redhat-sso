@@ -16,15 +16,7 @@
             "spec": {
                 "tags": [
                     {
-                        "name": "latest",
-                        "from": {
-                            "kind": "ImageStreamTag",
-                            "name": "7.4",
-                            "tags": "sso,keycloak,redhat"
-                        }
-                    },
-                    {
-                        "name": "7.4",
+                        "latest,
                         "annotations": {
                             "description": "Red Hat Single Sign-On 7.4 on OpenJDK image",
                             "iconClass": "icon-sso",
@@ -32,9 +24,6 @@
                             "supports": "sso:7.4",
                             "version": "1.0",
                             "openshift.io/display-name": "Red Hat Single Sign-On 7.4 on OpenJDK"
-                        },
-                        "referencePolicy": {
-                            "type": "Local"
                         },
                         "from": {
                             "kind": "DockerImage",
