@@ -19,7 +19,8 @@
                         "name": "latest",
                         "from": {
                             "kind": "ImageStreamTag",
-                            "name": "7.4"
+                            "name": "7.4",
+                            "tags": "sso,keycloak,redhat"
                         }
                     },
                     {
