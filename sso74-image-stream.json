@@ -24,9 +24,6 @@
 				"version": "1.0",
 				"openshift.io/display-name": "Red Hat Single Sign-On 7.4 on OpenJDK"
 			},
-			"referencePolicy": {
-				"type": "Local"
-			},
 			"from": {
 				"kind": "DockerImage",
 				"name": "registry.redhat.io/rh-sso-7/sso74-openshift-rhel8:7.4"
